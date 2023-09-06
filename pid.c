@@ -8,4 +8,6 @@ int main(){
 
     printf("My PID: %ld\n", mypid);
     printf("Parent PID: %ld\n", ppid);
+    fflush(stdout);
+    sleep(10);
 }
